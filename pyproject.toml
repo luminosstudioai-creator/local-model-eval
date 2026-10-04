@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools==80.10.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "local-model-eval"
+version = "0.1.0"
+description = "Offline regression evaluation for recorded LLM answers, with deterministic reports."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Mika Mischke"}]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/luminosstudioai-creator/local-model-eval"
+
+[tool.setuptools]
+py-modules = ["evaluate"]
+
+[project.scripts]
+local-model-eval = "evaluate:main"

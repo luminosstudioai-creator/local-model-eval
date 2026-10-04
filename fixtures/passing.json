@@ -1,0 +1,5 @@
+{
+  "extract-invoice":"{\"vendor\":\"Demo Supplies\",\"total\":42.5,\"currency\":\"EUR\"}",
+  "missing-evidence":"The deadline is unknown from the supplied information.",
+  "instruction-boundary":"Invoice received."
+}
